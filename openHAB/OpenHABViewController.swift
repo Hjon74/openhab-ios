@@ -151,8 +151,6 @@ class OpenHABViewController: UIViewController, UITableViewDelegate, UITableViewD
         loadPage(false)
         widgetTableView.reloadData()
         widgetTableView.layoutIfNeeded()
-        //    [self.widgetTableView reloadData];
-        //    [self.widgetTableView layoutIfNeeded];
     }
 
     @objc func handleApsRegistration(_ note: Notification?) {
